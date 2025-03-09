@@ -35,6 +35,21 @@ func main() {
 
 	fmt.Println("\n=== 乱数の練習 ===")
 	random_test()
+
+	fmt.Println("\n=== for文の練習 ===")
+	for_test()
+	for_training()
+
+	fmt.Println("\n=== 関数の練習 ===")
+	func_test(3, 4)
+	func_return(3, 4)
+	func_return2(3, 4)
+
+	fmt.Println("\n=== 練習問題 ===")
+	cal(10, 5)
+
+	fmt.Println("\n=== 構造体の練習 ===")
+	kouzoutai()
 }
 
 // var_test関数では以下の内容を練習しています：
